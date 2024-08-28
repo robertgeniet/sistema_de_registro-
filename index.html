@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sistema de registro de juegos</title>
+    <title>encriptador de texto</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container"></div>
+ <div class="encriptar"></div>
+<div class="terminos"></div>
+<p>solo letras minusculas y sin acentos.</p>
+<div class="botones"></div>
+<button class=" btn encriptar" type="button" onclick="encriptar()">encriptar</button>
+ <input type="button" class="btn desencriptar" value="desencriptar" onclick="desencriptar()">
+ />
+ <div>
+</div>
+<div class="encriptado"></div>
+<img src="" alt="" id="muñeco">
+<div class="mensaje-encriptado" id="mensaje-encriptado">
+    <h2 id="titulo mensaje">ningun mensaje encotrado</h2>
+    <p id="parrafo">ingrsa texto que deseas encriptar o descencriptar</p>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+</div>
+
+ <textarea name="texto"class="texto" id="texto" cols="30" rows="10" placeholder="ingresa el texto aqui"></textarea>
+    <script src="index.js"></script>
 </body>
 </html>
